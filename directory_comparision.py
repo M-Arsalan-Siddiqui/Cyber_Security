@@ -1,3 +1,6 @@
+# Created By Muhammad Arsalan Siddiqui 
+# Dated: 23-07-2021
+
 import os
 import sys
 import hashlib
@@ -5,9 +8,7 @@ import hashlib
 compromised="compromised"
 original="original"
 walk_dir = compromised
-"""print('walk_dir = ' + walk_dir)
-print("walk_dir(absolute)=" + os.path.abspath(walk_dir))
-print('walk_dir (absolute) = ' + os.path.abspath(walk_dir))"""
+
 
 for root, subdirs, files in os.walk(walk_dir):
     list_file_path = os.path.join(root, 'my-directory-list.txt')
