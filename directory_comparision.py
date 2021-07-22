@@ -1,6 +1,8 @@
 # Created By Muhammad Arsalan Siddiqui 
 # Dated: 23-07-2021
-
+#First Create two Folder with name of original & compromised & Paste Last Backup in orginal folder & Paste modified file in compromised folder  
+#Run this command from cmd to run this code python directory_comparision.py compromised
+#
 import os
 import sys
 import hashlib
